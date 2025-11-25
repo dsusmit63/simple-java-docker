@@ -1,5 +1,5 @@
 # Base Image
-FROM openjdk:26-jdk-slim
+FROM openjdk:26-ea-25-jdk-slim
 
 # Working Directory
 WORKDIR /app
