@@ -1,14 +1,14 @@
-# Base Image
+# BASE IMAGE
 FROM openjdk:26-ea-25-jdk-slim
 
-# Working Directory
+# WORKDIR
 WORKDIR /app
 
-# Code
+# COPY CODE
 COPY src/Main.java /app/Main.java
 
-# Compilation
+# COMPILE
 RUN javac Main.java
 
-# Run & Serve the Application
+# RUN & SERVE APPLICATION
 CMD ["java","Main"]
