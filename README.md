@@ -42,7 +42,7 @@ cd simple-java-docker
  ```bash
 docker build -t simple-java-docker:latest .
 ```
- 2. Run the container:
+ 3. Run the container:
  ```bash
 docker run --name simple-java-docker simple-java-docker:latest
 ```
