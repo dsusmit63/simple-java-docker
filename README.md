@@ -32,7 +32,7 @@ cd simple-java-docker
 javac src/Main.java -d out
 java -cp out Main
 ```
-## Build & Run with Docker
+### Build & Run with Docker
 1. Clone the Repository:
 ```bash
 git clone https://github.com/dsusmit63/simple-java-docker.git
